@@ -30,10 +30,12 @@ cl ProcessMonitor.cpp /EHsc
 ### ▶ How to Use
 1. Run the compiled ProcessMonitor.exe
 2. View a list of currently running processes:
-PID       Process Name
-------------------------
-1234      explorer.exe
-5678      chrome.exe
+```bash
+PID       Process Name    Memory
+--------------------------------
+1234      explorer.exe    115640 kB
+5678      chrome.exe      103508 kB
+```
 3. Enter the PID of the process you want to terminate, or enter 0 to exit
 
 ### 🧠 What I've learned
